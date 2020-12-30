@@ -1,0 +1,11 @@
+Name=str(input("Enter Your Name :-->> "))
+
+score=int(input("Enter Your Marks :-->> "))
+if score >= 60 and score<=100: 
+    print("First Division")
+elif score >= 50 and score <=100:
+    print("Second Division")
+elif score >=40 and score <=100:
+    print("Thard Division")
+else:
+    print("fail")
